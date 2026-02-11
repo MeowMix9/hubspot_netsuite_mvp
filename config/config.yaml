@@ -1,0 +1,23 @@
+hubspot:
+  api_key: "YOUR_HUBSPOT_API_KEY"
+  endpoints:
+    contacts: "https://api.hubapi.com/crm/v3/objects/contacts"
+    companies: "https://api.hubapi.com/crm/v3/objects/companies"
+    deals: "https://api.hubapi.com/crm/v3/objects/deals"
+
+netsuite:
+  account_id: "YOUR_NETSUITE_ACCOUNT_ID"
+  consumer_key: "YOUR_CONSUMER_KEY"
+  consumer_secret: "YOUR_CONSUMER_SECRET"
+  token_id: "YOUR_TOKEN_ID"
+  token_secret: "YOUR_TOKEN_SECRET"
+  api_endpoints:
+    customer: "/rest/platform/v1/customers"
+    contact: "/rest/platform/v1/contacts"
+    deal: "/rest/platform/v1/deals"
+
+migration:
+  batch_size: 50
+  dry_run: true
+
+environment: sandbox
