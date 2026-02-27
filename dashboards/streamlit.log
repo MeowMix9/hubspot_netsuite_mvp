@@ -1,0 +1,73 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.28.0.12:8501
+  External URL: http://35.204.197.102:8501
+
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/[0m[1;33mexec_code.py[0m: [31m [0m
+[31m [0m [94m129[0m in [92mexec_func_with_error_handling[0m                                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/[0m[1;33mscript_runner[0m [31m [0m
+[31m [0m [1;33m.py[0m:[94m689[0m in [92mcode_to_exec[0m                                                              [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/content/drive/MyDrive/hubspot_netsuite_mvp/dashboards/[0m[1;33mstreamlit_app.py[0m:[94m35[0m in        [31m [0m
+[31m [0m [92m<module>[0m                                                                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 32 [0m)                                                                              [31m [0m
+[31m [0m   [2m 33 [0m                                                                               [31m [0m
+[31m [0m   [2m 34 [0m[94mfrom[0m[90m [0m[4;96mutils[0m[4;96m.[0m[4;96mhelpers[0m[90m [0m[94mimport[0m get_city_state                                       [31m [0m
+[31m [0m [31m❱ [0m 35 [1;4;94mfrom[0m[1;4;90m [0m[1;4;96mservices[0m[1;4;96m.[0m[1;4;96mmigration_engine[0m[1;4;90m [0m[1;4;94mimport[0m[1;4m save_or_update_contact[0m                   [31m [0m
+[31m [0m   [2m 36 [0m                                                                               [31m [0m
+[31m [0m   [2m 37 [0m[2m# ---------------------------[0m                                                  [31m [0m
+[31m [0m   [2m 38 [0m[2m# Cloudinary config[0m                                                            [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/content/drive/MyDrive/hubspot_netsuite_mvp/services/[0m[1;33mmigration_engine.py[0m:[94m4[0m in        [31m [0m
+[31m [0m [92m<module>[0m                                                                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m  1 [0m[94mfrom[0m[90m [0m[4;96mdatetime[0m[90m [0m[94mimport[0m datetime                                                  [31m [0m
+[31m [0m   [2m  2 [0m[94mimport[0m[90m [0m[4;96msqlite3[0m                                                                 [31m [0m
+[31m [0m   [2m  3 [0m[94mimport[0m[90m [0m[4;96mos[0m                                                                      [31m [0m
+[31m [0m [31m❱ [0m  4 [1;4;94mfrom[0m[1;4;90m [0m[1;4;96mdatabase[0m[1;4;90m [0m[1;4;94mimport[0m[1;4m get_conn, generate_id[0m                                     [31m [0m
+[31m [0m   [2m  5 [0m                                                                               [31m [0m
+[31m [0m   [2m  6 [0mDB_PATH = os.path.join(os.path.dirname([91m__file__[0m), [33m"[0m[33m..[0m[33m"[0m, [33m"[0m[33mdata[0m[33m"[0m, [33m"[0m[33mfwd_crm.db[0m[33m"[0m)  [31m [0m
+[31m [0m   [2m  7 [0m                                                                               [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mImportError: [0mcannot import name [32m'generate_id'[0m from [32m'database'[0m 
+[1m([0m[35m/content/drive/MyDrive/hubspot_netsuite_mvp/[0m[95mdatabase.py[0m[1m)[0m
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/[0m[1;33mexec_code.py[0m: [31m [0m
+[31m [0m [94m129[0m in [92mexec_func_with_error_handling[0m                                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/[0m[1;33mscript_runner[0m [31m [0m
+[31m [0m [1;33m.py[0m:[94m689[0m in [92mcode_to_exec[0m                                                              [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/content/drive/MyDrive/hubspot_netsuite_mvp/dashboards/[0m[1;33mstreamlit_app.py[0m:[94m35[0m in        [31m [0m
+[31m [0m [92m<module>[0m                                                                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 32 [0m)                                                                              [31m [0m
+[31m [0m   [2m 33 [0m                                                                               [31m [0m
+[31m [0m   [2m 34 [0m[94mfrom[0m[90m [0m[4;96mutils[0m[4;96m.[0m[4;96mhelpers[0m[90m [0m[94mimport[0m get_city_state                                       [31m [0m
+[31m [0m [31m❱ [0m 35 [1;4;94mfrom[0m[1;4;90m [0m[1;4;96mservices[0m[1;4;96m.[0m[1;4;96mmigration_engine[0m[1;4;90m [0m[1;4;94mimport[0m[1;4m save_or_update_contact[0m                   [31m [0m
+[31m [0m   [2m 36 [0m                                                                               [31m [0m
+[31m [0m   [2m 37 [0m[2m# ---------------------------[0m                                                  [31m [0m
+[31m [0m   [2m 38 [0m[2m# Cloudinary config[0m                                                            [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/content/drive/MyDrive/hubspot_netsuite_mvp/services/[0m[1;33mmigration_engine.py[0m:[94m4[0m in        [31m [0m
+[31m [0m [92m<module>[0m                                                                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m  1 [0m[94mfrom[0m[90m [0m[4;96mdatetime[0m[90m [0m[94mimport[0m datetime                                                  [31m [0m
+[31m [0m   [2m  2 [0m[94mimport[0m[90m [0m[4;96msqlite3[0m                                                                 [31m [0m
+[31m [0m   [2m  3 [0m[94mimport[0m[90m [0m[4;96mos[0m                                                                      [31m [0m
+[31m [0m [31m❱ [0m  4 [1;4;94mfrom[0m[1;4;90m [0m[1;4;96mdatabase[0m[1;4;90m [0m[1;4;94mimport[0m[1;4m get_conn, generate_id[0m                                     [31m [0m
+[31m [0m   [2m  5 [0m                                                                               [31m [0m
+[31m [0m   [2m  6 [0mDB_PATH = os.path.join(os.path.dirname([91m__file__[0m), [33m"[0m[33m..[0m[33m"[0m, [33m"[0m[33mdata[0m[33m"[0m, [33m"[0m[33mfwd_crm.db[0m[33m"[0m)  [31m [0m
+[31m [0m   [2m  7 [0m                                                                               [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mImportError: [0mcannot import name [32m'generate_id'[0m from [32m'database'[0m 
+[1m([0m[35m/content/drive/MyDrive/hubspot_netsuite_mvp/[0m[95mdatabase.py[0m[1m)[0m
+  Stopping...

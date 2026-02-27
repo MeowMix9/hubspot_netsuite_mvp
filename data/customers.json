@@ -1,0 +1,17 @@
+[
+  {
+    "customer_id": "CUST-00001",
+    "created_at": "2026-02-11T21:04:29.517913",
+    "first_name": "Bob",
+    "last_name": "Dobalina",
+    "email": "bob@email.com",
+    "phone": "6033322826",
+    "company": "Vorago.io",
+    "address": "85 Maple St",
+    "city": "Rochester",
+    "state": "NH",
+    "zip": "03867",
+    "notes": "",
+    "environment": "SANDBOX"
+  }
+]
