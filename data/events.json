@@ -1,0 +1,14 @@
+[
+  {
+    "event_type": "order_created",
+    "shopify_id": "1001",
+    "customer": "Alice",
+    "amount": 50
+  },
+  {
+    "event_type": "order_created",
+    "shopify_id": "1002",
+    "customer": "Bob",
+    "amount": 75
+  }
+]
